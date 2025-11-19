@@ -1,0 +1,142 @@
+========================================
+INFO — Hashem Alkeshawi / هاشم القيشاوي
+========================================
+
+PRIORITIES / FIRST IMPRESSIONS
+- Primary impression to communicate immediately: "I am a programmer — technical, product-minded, and a founder." (Show technical skills and product ownership up front.)
+- Product language requirement: App must support both English and Arabic with an easy language switch (RTL support for Arabic).
+
+Group A — Identity & Contact
+1) Full name (display): Hashem Alkeshawi. هاشم القيشاوي
+2) Preferred short name / handle: Hashem. هاشم
+3) Pronunciation: (skip)
+4) Email (primary / public): hashemalkeshawi@gmail.com
+5) Phone / Messaging: +970592103756 (WhatsApp). Telegram: @hashemalkeshawi
+6) Location: Gaza, Gaza Strip, Palestine
+7) Personal & social links:
+	- Website: https://hashemalkeshawi.com
+	- GitHub: https://github.com/HashemAlkeshawi
+	- LinkedIn: https://www.linkedin.com/in/hashemalkeshawi/
+	- X (Twitter): https://x.com/AlkeshawiH79581
+
+Notes / next
+- I wrote the above as the canonical contact and identity block to use across the site (header, contact section, footer, and `info_me.txt`).
+- Next I'll add Group B (short bios and taglines) unless you want to edit any of the Group A fields first.
+
+========================================
+Group B — Taglines & Bios (English first, then Arabic)
+
+Tagline variants (English)
+1) Programmer • Backend & Mobile Engineer • Aspiring Founder
+2) Backend developer, mobile engineer, and founder‑in‑the‑making
+3) Laravel & Flutter developer — building reliable backends and mobile apps
+
+Tagline variants (Arabic - Modern Standard Arabic)
+1) مُبرمج • مهندس أنظمة خلفية وتطبيقات محمولة • مؤسس طموح
+2) مطوِّر خلفي ومطوِّر تطبيقات محمولة وطامِح لأن أكون مؤسسًا
+3) مطوِّر Laravel وFlutter — أبني أنظمة خلفية وتطبيقات محمولة موثوقة
+
+Short bio variants (English, 2–3 sentences)
+A) Hashem Alkeshawi is a backend and mobile engineer specializing in Laravel, native Android, and Flutter. A recent IUG graduate, he builds production-ready APIs and mobile apps with a strong love for SQL and data design. He is an aspiring founder focused on building meaningful educational products and is open to recruiter and investor conversations.
+
+B) Hashem is a programmer and founder‑in‑waiting who writes solid backend services (Laravel) and cross‑platform mobile apps (Flutter, Android). He returned to the Islamic University of Gaza to complete his studies and has shipped native and Flutter apps; he focuses on technical quality, scalable APIs, and data‑driven product decisions.
+
+C) Backend and mobile developer (Laravel, Flutter, native Android) with a practical love for SQL. A recent graduate and aspiring founder from Gaza, Hashem builds apps that teach and scale; he values clarity, resilience, and long‑term product thinking.
+
+Short bio variants (Arabic — MSA)
+A) هاشم القيشاوي مبرمج ومتخصص في الخلفية والتطبيقات المحمولة، يعمل بلغة Laravel والأندرويد وFlutter. خريج جامعة الإسلامية بغزة، يبني واجهات برمجة تطبيقات جاهزة للإنتاج وتطبيقات محمولة مع شغف بتصميم قواعد البيانات SQL. يسعى ليكون مؤسسًا ويرحب بالاتصال من قبل مسؤولي التوظيف والمستثمرين.
+
+B) هاشم مبرمج وطموح لأن يصبح مؤسسًا؛ يطور خدمات خلفية متينة (Laravel) وتطبيقات محمولة متعددة المنصات (Flutter، Android). عَادَ لإكمال دراسته في الجامعة وشحن عدة تطبيقات؛ يركّز على الجودة التقنية وقرارات المنتج المبنية على البيانات.
+
+C) مطوِّر خلفية وتطبيقات محمولة (Laravel، Flutter، Android) مع حب عملي لـ SQL. خريج من غزة وطامح لتأسيس مشروع تعليمي رقمي؛ يَقدّر الوضوح والمرونة والتفكير طويل الأمد في المنتج.
+
+Long bio variants (English, 4–6 sentences)
+1) Hashem Alkeshawi (هاشم القيشاوي) is a backend and mobile engineer from Gaza. He develops robust APIs with Laravel and builds native Android and Flutter apps, with a particular passion for SQL and data modeling. After returning to the Islamic University of Gaza, Hashem shipped several production apps and concentrated on creating educational products that help people learn. He is an aspiring founder working on Baseera and is open to recruiter outreach, technical partnerships, and investor conversations.
+
+2) Hashem bridges backend systems and mobile experiences: he architects Laravel‑based APIs, designs performant SQL schemas, and delivers mobile apps in native Android and Flutter. A recent IUG graduate and product‑minded engineer, he combines rigorous engineering with user-focused product work to build learning applications. His background includes shipping production apps and building server APIs end‑to‑end. He welcomes conversations about full‑time roles, partnerships, and founder opportunities.
+
+Long bio variants (Arabic — MSA)
+1) هاشم القيشاوي مبرمج من غزة متخصص في الخلفية وتطبيقات المحمول. يطوّر واجهات برمجة تطبيقات متينة باستخدام Laravel ويبني تطبيقات أندرويد أصلية وبتقنية Flutter، مع شغف خاص بتصميم قواعد البيانات SQL. بعد عودته إلى الجامعة، شحن هاشم عدة تطبيقات عملية وركّز على بناء منتجات تعليمية عملية. هو طامح لأن يكون مؤسسًا ويقبل التواصل من جهات التوظيف والشركاء التقنيين والمستثمرين.
+
+2) هاشم يجمع بين هندسة النظم الخلفية وتجارب التطبيق المحمول: يصمم واجهات API بنظام Laravel، ينشئ مخططات SQL فعّالة، وينفّذ تطبيقات محمولة بنظام Android وFlutter. كخريج حديث ومهندس يركز على المنتج، يدمج بين الصرامة الهندسية وفهم المستخدم لبناء تطبيقات تعليمية قابلة للتوسع. يستقبل هاشم دعوات للنقاش حول فرص عمل بدوام كامل أو شراكات تقنية أو فرص تأسيس.
+
+Microcopy & CTAs
+- Primary CTA recommendation: "Contact Me" (this page focuses on Hashem rather than the app). 
+- Secondary CTA (optional): "About my app — Baseera" (links to a separate product section later).
+
+Next: I will add these variants to the site copy area; tell me which tagline and which short bio you prefer as the default (English + Arabic). I will then write the chosen copy into `index_test.html` hero and `html_test.html` if you want.
+
+========================================
+Group C — Current status & goals
+1) Display title (recommended): Backend & Mobile Engineer — Aspiring Founder
+2) Actively seeking: technical cofounder(s) and technical partners; open to recruiter conversations and investor discussions. Also interested in collaborators who have ideas to build.
+3) Availability for meetings: by appointment (Gaza timezone). Provide times later.
+
+Group D — Baseera (product)
+4) App name: Baseera (بصيرة) — short tagline: "بصيرة — في ما لا يسع المسلم جهله"
+5) One-sentence product description (English): Baseera is an educational mobile app for Arabic‑speaking Muslims that teaches essential Islamic knowledge — fiqh, aqeedah, Quran, Hadith, and ethics — through short, interactive lessons and practice.
+	(Arabic equivalent will be added after English drafts.)
+6) Core features (short):
+	- Bite-sized interactive lessons
+	- Reinforcement quizzes and spaced repetition
+	- Curriculum-guided learning on fiqh, aqeedah, Quran, Hadith, ethics
+	- Progress tracking and session analytics
+	- User accounts and sync across devices
+7) Current stage: Closed beta
+8) Links / media: to be provided later (you said you'll share assets and links when ready).
+
+Note: you asked that the site remain primarily about you (Hashem) rather than being an app landing page — Baseera will have its own section, and app details will be added later.
+
+Group E — Role, responsibilities & tech
+9) Role: Co‑founder and lead engineer (you are the main founder and lead dev; your cofounder handles the curriculum — do not publish cofounder internal responsibilities).
+10) You personally built: Laravel backend and RESTful API, PostgreSQL schema and DB design, Flutter mobile UI including auth, Firebase analytics, and overall technical architecture and infra.
+11) Main tech stack: PostgreSQL, PHP (Laravel), Dart (Flutter), Firebase (analytics & auth).
+
+Group F — Other projects & portfolio
+12) Other projects: you will provide a list later. (Keep placeholder here to add up to 6 projects.)
+13) Open-source repos: to add later when you provide URLs.
+
+Group G — Skills & proficiency
+14) Top skills (display + proficiency):
+	- SQL / PostgreSQL — advanced
+	- PHP / Laravel — advanced
+	- Dart / Flutter — advanced
+	- Native Android — intermediate
+	- RESTful APIs — advanced
+	- System architecture — advanced
+	- UI/UX & product thinking — intermediate
+	- Gamification / learning flows — intermediate
+15) Soft / business skills to list: product thinking, system analysis, teamwork, resilience under pressure
+
+Group H — Education & achievements
+16) Education: B.Sc. Computer Science — Mobile Computing & Smartphone Applications Development — Islamic University of Gaza — 2019–2024
+17) Awards / hackathons / certifications: to be added later.
+
+Group I — Assets & media
+18) Headshot: you will upload later; leave placeholder.
+19) App screenshots / gallery: you will add later (we have some pomodoro images but Baseera assets pending).
+20) App icon/logo: to be provided later.
+21) Demo video: to be provided later.
+
+Group J — Legal / company
+22) Company name: none yet (not incorporated). Baseera site: https://www.baseera-app.com
+23) Registration: not yet; plan to incorporate if the app succeeds.
+
+Group K — Microcopy & CTAs
+24) Primary CTA for the personal page: "Contact Me"
+25) Secondary CTA (optional): "About Baseera" (links to the product section)
+26) Words/phrases to avoid: avoid phrasing that implies you "quit" university — instead state you returned and completed studies.
+
+Language & format rules
+27) I will draft English text first, then provide Modern Standard Arabic translations. (Confirmed: yes.)
+28) Use Western digits in Arabic text (confirmed: yes).
+
+Anything else / priorities
+29) Priority note: the site is about you, Hashem, not about the app. You are open to learning and sharing knowledge; Baseera will be featured but secondary to your personal profile.
+
+========================================
+
+Next steps I will take if you approve:
+- Apply a default tagline and short bio to the site (English + Arabic) — pick your preferred variant or ask me to apply sensible defaults.
+- Add placeholders in `html_test.html` for the Baseera section using the one-sentence description and closed‑beta status.
+- Keep collecting assets and project details when you provide them.
