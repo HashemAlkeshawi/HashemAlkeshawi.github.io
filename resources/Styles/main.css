@@ -146,7 +146,14 @@ html[dir="rtl"] .hero-copy::before{right:auto;left:-30px;transform:rotate(-12deg
 .product-title{display:flex;align-items:center;gap:0.5rem}
 .title-icon{height:5rem;border-radius:15%;vertical-align:top;margin-right:0}
 
-.product-details h3{margin-top:0}
+.product-title a:hover img {
+    transform: scale(1.05);
+    transition: transform 0.2s;
+}
+
+.product-title a:hover h2 {
+    text-decoration: underline;
+}
 .features-list{list-style:none;padding:0;margin:0 0 1rem 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:.6rem}
 .features-list li{background:#fbfdff;padding:.65rem;border:1px solid #eef5ff;border-radius:8px}
 .features-list strong{display:block;color:#122;}
