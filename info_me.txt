@@ -29,7 +29,7 @@ Group B — Taglines & Bios (English first, then Arabic)
 Tagline variants (English)
 1) Programmer • Backend & Mobile Engineer • Aspiring Founder
 2) Backend developer, mobile engineer, and founder‑in‑the‑making
-3) Laravel & Flutter developer — building reliable backends and mobile apps
+3) Laravel & Flutter (Android & iOS) developer — building reliable backends and mobile apps
 
 Tagline variants (Arabic - Modern Standard Arabic)
 1) مُبرمج • مهندس أنظمة خلفية وتطبيقات محمولة • مؤسس طموح
@@ -37,11 +37,11 @@ Tagline variants (Arabic - Modern Standard Arabic)
 3) مطوِّر Laravel وFlutter — أبني أنظمة خلفية وتطبيقات محمولة موثوقة
 
 Short bio variants (English, 2–3 sentences)
-A) Hashem Alkeshawi is a backend and mobile engineer specializing in Laravel, native Android, and Flutter. A recent IUG graduate, he builds production-ready APIs and mobile apps with a strong love for SQL and data design. He is an aspiring founder focused on building meaningful educational products and is open to recruiter and investor conversations.
+A) Hashem Alkeshawi is a backend and mobile engineer specializing in Laravel and Flutter (Android & iOS). A recent IUG graduate, he builds production-ready APIs and mobile apps with a strong love for SQL and data design. He is an aspiring founder focused on building meaningful educational products and is open to recruiter and investor conversations.
 
-B) Hashem is a programmer and founder‑in‑waiting who writes solid backend services (Laravel) and cross‑platform mobile apps (Flutter, Android). He returned to the Islamic University of Gaza to complete his studies and has shipped native and Flutter apps; he focuses on technical quality, scalable APIs, and data‑driven product decisions.
+B) Hashem is a programmer and founder‑in‑waiting who writes solid backend services (Laravel) and cross‑platform mobile apps (Flutter — Android & iOS). He returned to the Islamic University of Gaza to complete his studies and has shipped Android and Flutter apps; he focuses on technical quality, scalable APIs, and data‑driven product decisions.
 
-C) Backend and mobile developer (Laravel, Flutter, native Android) with a practical love for SQL. A recent graduate and aspiring founder from Gaza, Hashem builds apps that teach and scale; he values clarity, resilience, and long‑term product thinking.
+C) Backend and mobile developer (Laravel, Flutter (Android & iOS), Android) with a practical love for SQL. A recent graduate and aspiring founder from Gaza, Hashem builds apps that teach and scale; he values clarity, resilience, and long‑term product thinking.
 
 Short bio variants (Arabic — MSA)
 A) هاشم القيشاوي مبرمج ومتخصص في الخلفية والتطبيقات المحمولة، يعمل بلغة Laravel والأندرويد وFlutter. خريج جامعة الإسلامية بغزة، يبني واجهات برمجة تطبيقات جاهزة للإنتاج وتطبيقات محمولة مع شغف بتصميم قواعد البيانات SQL. يسعى ليكون مؤسسًا ويرحب بالاتصال من قبل مسؤولي التوظيف والمستثمرين.
@@ -51,9 +51,9 @@ B) هاشم مبرمج وطموح لأن يصبح مؤسسًا؛ يطور خدم
 C) مطوِّر خلفية وتطبيقات محمولة (Laravel، Flutter، Android) مع حب عملي لـ SQL. خريج من غزة وطامح لتأسيس مشروع تعليمي رقمي؛ يَقدّر الوضوح والمرونة والتفكير طويل الأمد في المنتج.
 
 Long bio variants (English, 4–6 sentences)
-1) Hashem Alkeshawi (هاشم القيشاوي) is a backend and mobile engineer from Gaza. He develops robust APIs with Laravel and builds native Android and Flutter apps, with a particular passion for SQL and data modeling. After returning to the Islamic University of Gaza, Hashem shipped several production apps and concentrated on creating educational products that help people learn. He is an aspiring founder working on Baseera and is open to recruiter outreach, technical partnerships, and investor conversations.
+1) Hashem Alkeshawi (هاشم القيشاوي) is a backend and mobile engineer from Gaza. He develops robust APIs with Laravel and builds Android and Flutter (Android & iOS) apps, with a particular passion for SQL and data modeling. After returning to the Islamic University of Gaza, Hashem shipped several production apps and concentrated on creating educational products that help people learn. He is an aspiring founder working on Baseera and is open to recruiter outreach, technical partnerships, and investor conversations.
 
-2) Hashem bridges backend systems and mobile experiences: he architects Laravel‑based APIs, designs performant SQL schemas, and delivers mobile apps in native Android and Flutter. A recent IUG graduate and product‑minded engineer, he combines rigorous engineering with user-focused product work to build learning applications. His background includes shipping production apps and building server APIs end‑to‑end. He welcomes conversations about full‑time roles, partnerships, and founder opportunities.
+2) Hashem bridges backend systems and mobile experiences: he architects Laravel‑based APIs, designs performant SQL schemas, and delivers mobile apps in Flutter (Android & iOS) and Android. A recent IUG graduate and product‑minded engineer, he combines rigorous engineering with user-focused product work to build learning applications. His background includes shipping production apps and building server APIs end‑to‑end. He welcomes conversations about full‑time roles, partnerships, and founder opportunities.
 
 Long bio variants (Arabic — MSA)
 1) هاشم القيشاوي مبرمج من غزة متخصص في الخلفية وتطبيقات المحمول. يطوّر واجهات برمجة تطبيقات متينة باستخدام Laravel ويبني تطبيقات أندرويد أصلية وبتقنية Flutter، مع شغف خاص بتصميم قواعد البيانات SQL. بعد عودته إلى الجامعة، شحن هاشم عدة تطبيقات عملية وركّز على بناء منتجات تعليمية عملية. هو طامح لأن يكون مؤسسًا ويقبل التواصل من جهات التوظيف والشركاء التقنيين والمستثمرين.
@@ -89,8 +89,8 @@ Note: you asked that the site remain primarily about you (Hashem) rather than be
 
 Group E — Role, responsibilities & tech
 9) Role: Co‑founder and lead engineer (you are the main founder and lead dev; your cofounder handles the curriculum — do not publish cofounder internal responsibilities).
-10) You personally built: Laravel backend and RESTful API, PostgreSQL schema and DB design, Flutter mobile UI including auth, Firebase analytics, and overall technical architecture and infra.
-11) Main tech stack: PostgreSQL, PHP (Laravel), Dart (Flutter), Firebase (analytics & auth).
+10) You personally built: Laravel backend and RESTful API, PostgreSQL schema and DB design, Flutter (Android & iOS) mobile UI including auth, Firebase analytics, and overall technical architecture and infra.
+11) Main tech stack: PostgreSQL, PHP (Laravel), Dart (Flutter — Android & iOS), Firebase (analytics & auth).
 
 Group F — Other projects & portfolio
 12) Other projects: you will provide a list later. (Keep placeholder here to add up to 6 projects.)
@@ -100,8 +100,8 @@ Group G — Skills & proficiency
 14) Top skills (display + proficiency):
 	- SQL / PostgreSQL — advanced
 	- PHP / Laravel — advanced
-	- Dart / Flutter — advanced
-	- Native Android — intermediate
+	- Dart / Flutter (Android & iOS) — advanced
+	- Android — intermediate
 	- RESTful APIs — advanced
 	- System architecture — advanced
 	- UI/UX & product thinking — intermediate
@@ -140,3 +140,15 @@ Next steps I will take if you approve:
 - Apply a default tagline and short bio to the site (English + Arabic) — pick your preferred variant or ask me to apply sensible defaults.
 - Add placeholders in `html_test.html` for the Baseera section using the one-sentence description and closed‑beta status.
 - Keep collecting assets and project details when you provide them.
+
+========================================
+Group C — Product / Baseera Description
+========================================
+
+"بصيرة **Baseera** هو تطبيق تعليمي إسلامي عصري يُقدّم العلوم الشرعية — مثل العقيدة، الفقه، الحديث، تفسير القرآن، اللغة العربية، والأخلاق — بأسلوب تفاعلي ومنهجي يناسب مختلف المستويات: من المبتدئين إلى المتقدمين. التطبيق يستخدم نظام تحفيزي ذكي: يتيح جمع **أهلة المعرفة (XP)** كمقياس للتقدم، و"ريشات الكتابة" كعملة داخل التطبيق تُستهلك عند الإجابات الخاطئة، مع إمكانية استعادتها عبر انتظار أو مشاهدة إعلانات. كما يحتوي على مؤشر "الإتقان" لقياس مدى حفظ وفهم الدروس، ونظام سلسلة استمرارية يومية ("سلسلة الهمة") يشجّع على التعلم اليومي. كل المحتوى موثوق ويُبنى بعناية من مصادر شرعية، والتطبيق مصمم ليكون متاحًا للجميع مجانًا مع احتمال تقديم نسخة مدفوعة مستقبلًا توفر ميزات إضافية مثل التعلم بدون إنترنت. ([baseera-app.com][1])
+
+[1]: https://www.baseera-app.com/?utm_source=chatgpt.com "بصيرة - في ما لا يسع المسلم جهله"
+
+"Baseera (بصيرة) is a modern, interactive Islamic-learning app that offers structured courses across essential fields like **Aqeedah**, **Fiqh**, **Hadith**, **Quranic sciences**, **Arabic language**, and **Ethics**, tailored for beginners and advanced learners. Using a gamified system, users earn **knowledge moons (XP)** to track progress, and use **“writing quills”** — the app’s currency — which are spent when answering incorrectly and replenished by waiting or watching ads. A **mastery indicator** measures how well lessons are retained, while a **daily streak (“Hemmah series”)** rewards consistent learning. The content is sourced from reliable Islamic scholarship, and the app is free to use, with the potential for a paid version in the future that will unlock offline learning and extra features. ([baseera-app.com][1])
+
+[1]: https://www.baseera-app.com/?utm_source=chatgpt.com "بصيرة - في ما لا يسع المسلم جهله"

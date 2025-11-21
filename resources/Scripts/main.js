@@ -14,9 +14,29 @@
         const url = 'https://wa.me/' + phone + '?text=' + encodeURIComponent(text);
         window.open(url,'_blank');
     }
-    // show/hide back button on scroll (throttle)
+    // show/hide back button on scroll (throttle) and toggle header shadow
     let scheduled = false;
-    window.addEventListener('scroll', function(){ if(!scheduled){ scheduled = true; setTimeout(()=>{ scheduled=false; showBack(); },100); } });
+    let lastScrollY = window.scrollY;
+    const siteHeader = document.querySelector('header');
+    window.addEventListener('scroll', function(){
+        if(!scheduled){
+            scheduled = true;
+            setTimeout(()=>{
+                scheduled=false;
+                showBack();
+                if(siteHeader){
+                    siteHeader.classList.toggle('header-scrolled', window.scrollY > 12);
+                    const currentScrollY = window.scrollY;
+                    if(currentScrollY > lastScrollY && currentScrollY > 100){
+                        siteHeader.classList.add('header-hidden');
+                    } else {
+                        siteHeader.classList.remove('header-hidden');
+                    }
+                    lastScrollY = currentScrollY;
+                }
+            },100);
+        }
+    });
 })();
 
 // Additional helpers for new hero
@@ -45,17 +65,22 @@ document.addEventListener('DOMContentLoaded', function(){
         const arEls = document.querySelectorAll('.ar');
         enEls.forEach(e=> e.style.display = (lang==='en') ? '' : 'none');
         arEls.forEach(e=> e.style.display = (lang==='ar') ? '' : 'none');
-        document.getElementById('lang-en').classList.toggle('active', lang==='en');
-        document.getElementById('lang-ar').classList.toggle('active', lang==='ar');
+        // Toggle active states for any existing dedicated lang buttons (if present)
+        const enBtnEl = document.getElementById('lang-en');
+        const arBtnEl = document.getElementById('lang-ar');
+        if(enBtnEl) enBtnEl.classList.toggle('active', lang==='en');
+        if(arBtnEl) arBtnEl.classList.toggle('active', lang==='ar');
         // set direction
         document.documentElement.dir = (lang==='ar') ? 'rtl' : 'ltr';
     }
 
-    const enBtn = document.getElementById('lang-en');
-    const arBtn = document.getElementById('lang-ar');
-    if(enBtn && arBtn){
-        enBtn.addEventListener('click', ()=> setLang('en'));
-        arBtn.addEventListener('click', ()=> setLang('ar'));
+    // wire header language toggle (globe icon) if present
+    const headerLangToggle = document.getElementById('lang-toggle');
+    if(headerLangToggle){
+        headerLangToggle.addEventListener('click', ()=>{
+            const current = document.documentElement.lang || 'en';
+            setLang(current === 'en' ? 'ar' : 'en');
+        });
     }
     // default to English
     setLang('en');

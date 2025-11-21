@@ -1,384 +1,281 @@
-<html>
-    <head>
-        <link rel = "icon" href ="resources/Icons/title_icon.png" type = "image/x-icon"> 
-        <title>Hashem Alkeshawi</title>
-        <link  rel="stylesheet" type="text/css" href="resources/Styles/Styling.css">
-        <script src="resources/Scripts/ShowinList_script.js"></script>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Hashem Alkeshawi — Prototype</title>
+  <link rel="icon" href="resources/Icons/title_icon.png" type="image/x-icon">
+  <meta name="description" content="Mobile app founder portfolio — prototype structure">
+  <!-- Open Graph / Social preview -->
+  <meta property="og:title" content="Hashem Alkeshawi — Programmer & Founder">
+  <meta property="og:description" content="Hashem Alkeshawi — backend & mobile engineer; founder of Baseera (closed beta). Contact for beta, partnerships, or roles.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hashemalkeshawi.com">
+  <meta property="og:image" content="resources/Portfolio_Media/Imges/tomorrow/screenshot_1.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Hashem Alkeshawi — Programmer & Founder">
+  <meta name="twitter:description" content="Backend & mobile engineer. Founder of Baseera (closed beta). Open to recruiter and investor conversations.">
+  <meta name="twitter:image" content="resources/Portfolio_Media/Imges/tomorrow/screenshot_1.png">
+  <link rel="canonical" href="https://hashemalkeshawi.com">
+  <link rel="stylesheet" href="resources/Styles/main.css">
+  <script defer src="resources/Scripts/main.js"></script>
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+      <a class="logo" href="html_test.html"><img src="resources/Images/center_img.png" alt="Site logo"></a>
+      <nav aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="#hero"><span class="en">Home</span><span class="ar" lang="ar" dir="rtl" style="display:none">الرئيسية</span></a></li>
+          <li><a href="#product"><span class="en">Baseera</span><span class="ar" lang="ar" dir="rtl" style="display:none">بصيرة</span></a></li>
+          <li><a href="#contact"><span class="en">Contact</span><span class="ar" lang="ar" dir="rtl" style="display:none">تواصل</span></a></li>
+          <li class="lang-item">
+            <button id="lang-toggle" class="lang-toggle" aria-label="Toggle language" title="Toggle language">
+              <!-- simple globe SVG -->
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" stroke="#0b56d1" stroke-width="1.2" fill="rgba(11,86,209,0.06)"/>
+                <path d="M2 12h20M12 2c2.2 3 3 7 3 10s-.8 7-3 10M12 2c-2.2 3-3 7-3 10s.8 7 3 10" stroke="#0b56d1" stroke-width="1" stroke-linecap="round"/>
+              </svg>
+              <span class="lang-label en">EN</span>
+              <span class="lang-label ar" lang="ar" dir="rtl" style="display:none">العربية</span>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-        <meta name="google-site-verification" content="F82NIRqU06hk58EPTuHJmNK12JWf7lLLqABo9_4lKJM" />
-        <meta name = "keywords" content = "portfolio, student, programmer, computer science,
-                    software Development, Education, frontEnd,app developer, Android developer " />
-        <meta name = "description" content = "student and developer portfolio, hashemalkeshawi" />
-        <meta name = "author" content = "Hashem alkeshawi" />
-    </head>
-    <body  onscroll="showBack()" >
-        <a id="body_top"></a>
-        <!-- Hashem Alkeshawi 120190191 -->
-        <!--The navagation bar with the logo-->
-        <div id="top" class="z-depth-2">
-            <a href="index.html"><img id="top_name_logo" title="Home" src="resources/Images/name_logo.png"></a>
-            <ul id="nav_list">
-                <a  href="#about"><li>About</li></a>
-                <a  href="#skills"><li>Skills</li></a>
-                <a  href="#edu"><li>Education</li></a>
-                <a  href="#portfolio"><li>Portfolio</li></a>
-            </ul>
+  <main>
+    <!-- HERO: elevator pitch, app name, primary CTA -->
+    <section id="hero" class="container">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <!-- language toggle moved to header -->
+
+          <h1 class="app-title">
+            <span class="en">Hashem Alkeshawi</span>
+            <span class="ar" lang="ar" dir="rtl" style="display:none">هاشم القيشاوي</span>
+          </h1>
+
+          <p class="app-tag">
+            <span class="en">Programmer • Backend & Mobile Engineer • Founder of Baseera</span>
+            <span class="ar" lang="ar" dir="rtl" style="display:none">مُبرمج • مطور Back-end وتطبيقات موبايل • مؤسس تطبيق بصيرة</span>
+          </p>
+
+          <p class="short-bio">
+            <span class="en">Backend and mobile engineer with advanced expertise in <span class="tech-badge laravel">Laravel</span> for developing robust RESTful APIs, authentication systems, and scalable backend architectures. Highly skilled in <span class="tech-badge flutter">Flutter</span>, delivering high-performance cross-platform mobile applications for Android and iOS, with a strong focus on code quality, scalable architecture, complex UI implementation, and efficient state management.</span>
+            <span class="ar" lang="ar" dir="rtl" style="display:none">مطور تطبيقات الويب وتطبيقات موبايل بخبرة متقدمة في <span class="tech-badge laravel">Laravel</span> للتطوير RESTful APIs قوية، أنظمة المصادقة، وتطبيقات الويب.<br>متخصص في تطوير تطبيقات <span class="tech-badge flutter">Flutter</span> عالية الأداء لأنظمة Android و iOS، مع اهتمام كبير بجودة التنفيذ، وتصميم واجهات مستخدم معقدة، وبناء بنية برمجية مرنة، وإدارة حالة فعّالة تضمن تجربة استخدام مستقرة وسلسة.</span>
+          </p>
+
+          <div class="hero-ctas">
+            <a class="btn primary" id="contact-me" href="#contact"><span class="en">Contact Me</span><span class="ar" lang="ar" dir="rtl" style="display:none">تواصل معي</span></a>
+            <a class="btn outline baseera-cta" id="about-baseera" href="#product"><img src="resources/Icons/baseera_icon_launcher.png" alt="Baseera icon" class="btn-icon"><span class="en">The App Baseera</span><span class="ar" lang="ar" dir="rtl" style="display:none">بصيرة - ما لا يسع المسلم جهله</span></a>
+          </div>
         </div>
-        <!--The content of the home page-->
-        <div id="center">
-            <a href="#about"><img id="center_img" title="About Me" src="resources/Images/center_img.png"></a>
-            <div id="description_content">
-                <p id="description">Software Development Student at the Islamic University of Gaza</p>
-                <a href="#contact_section">
-                    <button id="contact" onmouseover="onHover()" onmouseleave="onNotHover()">
-                        Contact Me
-                        <img id="img_contact" src="resources/Icons/contact-info.png">
-                    </button>
-                </a>
+  <!-- Education details -->
+        <div class="timeline-item">
+          <h3><span class="en">B.Sc. Computer Science — Mobile Computing & Smartphone Apps (2019–2024)</span>
+          <span class="ar" lang="ar" dir="rtl" style="display:none">بكالوريوس علوم الحاسوب — حوسبة متنقلة (2019–2024)</span></h3>
+          <p><span class="en">Islamic University of Gaza — the program combines foundational computer science knowledge, such as algorithms, data structures, and operating systems, with specialized training in mobile computing and smartphone apps.</span>
+          <span class="ar" lang="ar" dir="rtl" style="display:none">الجامعة الإسلامية بغزة — يجمع البرنامج بين الأساس النظري في علوم الحاسوب، مثل الخوارزميات، هياكل البيانات، وأنظمة التشغيل، وبين التدريب المتخصص في حوسبة متنقلة وتطبيقات الهواتف الذكية.</span></p>
+        </div>
+        <!-- Hero panels: skill highlights -->
+        <div class="hero-panels">
+
+          <div class="skills-grid">
+            <div class="skill-card">
+              <h3>PHP / Laravel <span class="skill-level">(advanced)</span></h3>
+              <p>Building RESTful APIs, authentication, and business logic powering app backends.</p>
             </div>
-        </div>
-        <!--the body contains information-->
-        <div class="more">
-            <img id="home_back" title="Up" src="resources/Icons/up-arrow.png" onclick="hideBack()" >
-            <img id="floating_name_logo" title="Hashem Alkeshawi" src="resources/Icons/top_inScroll_icon.png" >
+
+            <div class="skill-card">
+              <h3>Dart / Flutter <span class="skill-level">(advanced — Android & iOS)</span></h3>
+              <p>Implementing cross-platform mobile UI, navigation, and offline-capable features for Android and iOS.</p>
+            </div>
+
             
-            <!--About section "who am I?"-->
-            <div id="about">
-                <div id="about_heading">
-                    <img id="about_logo" title="About Me" src="resources/Icons/identification.png">
-                    <h1>Who am I?</h1>
-                </div>
-                <div id="about_content">
-
-
-                            <!-- Hashem Alkeshawi 120190191 -->
-
-                    <p id="p1_about">Who am I? ...An alive human being.<br>
-                        Born in 2001, when it was too late to explore Earth,
-                        And too early to discover Space,
-                        Completely at the time of Software Development.
-                        </p>
-
-                    <p id="p2_about">If we're talking about how I spend my time, either studying,
-                        reading, watching Youtube videos,
-                        or browsing the web. Sometimes exercising.</p>
-
-                    <p id="p3_about">If we're talking about my Studying,<br>
-                        I spend my studying time either writing code or learning how to write code.</p>
-
-                    <p id="p4_about">But I am not my Study.
-                        The actions I do for profit is not “what I am” or even “who I am.”
-                        If I cease that work,
-                        I do not cease to be who and what I am.</p>
-                </div>
-
+            <div class="skill-card">
+              <h3>RESTful APIs & Architecture <span class="skill-level">(advanced)</span></h3>
+              <p>Designing scalable APIs, authentication flows, and data synchronization strategies.</p>
             </div>
-            
-            <!--Skills section-->
-            <div id="skills">
-                <div id="skills_heading">
-                    <img id="skills_logo" title="My Skills" src="resources/Icons/skills.png">
-                    <h1>Tech-Skills</h1>
-                </div>
-                <div id="skills_content" >
-                    <div  id="android" class="skill">
-                        <div class="skills_content_heading">
-                            <img id="androidImage" title="Android" src="resources/Icons/android-icon.png">
-                            <h2>Android</h2>
-                        </div>
-                        <ul>
-                            <li id="uInterface"><pre style="display: inline;">  </pre>User Interface<hr></li>
-                            <li id="uExperience"><pre style="display: inline;">  </pre>User Experience<hr></li>
-                            <li id="AStudio"><pre style="display: inline;">  </pre>Android Studio<hr></li>
-                            <li id="kotlin"><pre style="display: inline;">  </pre>Kotlin<hr></li>
-                            <li id="java"><pre style="display: inline;" >  </pre>Java<hr></li>
-                            <li id="xml"><pre style="display: inline;">  </pre>XML<hr></li>
-                            <li id="sqlite"><pre style="display: inline;">  </pre>SQLite<hr></li>
-                            <li id="networking"><pre style="display: inline;">  </pre>Networking<hr></li>
-                            <li id="gradle"><pre style="display: inline;">  </pre>gradle</li>
-                        </ul>                      
-                    </div>
-                    <div id="tools_languages" class="skill">
-                        <div class="skills_content_heading">
-                            <img id="toolsImage" title="I am a programmer!" src="resources/Icons/programming-flag.png">
-                            <h2>Tools and Languages</h2>
-                        </div>
-                                <!-- Hashem Alkeshawi 120190191 -->
-
-                        <ul>
-                            <li id="java"><pre style="display: inline;">  </pre>Java<hr></li>
-                            <li id="kotlin"><pre style="display: inline;">  </pre>Kotlin<hr></li>
-                            <li id="sql"><pre style="display: inline;">  </pre>SQL<hr></li>
-                            <li id="AStudio"><pre style="display: inline;">  </pre>Android Studio<hr></li>
-                            <li id="sqlite"><pre style="display: inline;">  </pre>SQLite<hr></li>
-                            <li id="firebase"><pre style="display: inline;">  </pre>FireBase<hr></li>
-                            <li id="admob"><pre style="display: inline;">  </pre>AdMob<hr></li>
-                            <li id="react"><pre style="display: inline;">  </pre>React Js<hr></li>
-                            <li id="mysql"><pre style="display: inline;">  </pre>mySQL<hr></li>
-                            <li id="python"><pre style="display: inline;">  </pre>Python<hr></li>
-                        </ul>                                          
-                    </div>
-                    <div id="frontEnd" class="skill">
-                        <div class="skills_content_heading">
-                            <img id="frontendImage" src="resources/Icons/front-end.png">
-                            <h2>FrontEnd</h2>
-                        </div>
-                        <!-- Hashem Alkeshawi 120190191 -->
-                        
-                        <ul>
-                            <li id="react"><pre style="display: inline;">  </pre>React Js<hr></li>
-                            <li id="bootstrap"><pre style="display: inline;">  </pre>Bootstrap<hr></li>
-                            <li id="html"><pre style="display: inline;">  </pre>HTML<hr></li>
-                            <li id="css"><pre style="display: inline;">  </pre>CSS<hr></li>
-                            <li id="js"><pre style="display: inline;">  </pre>JavaScript</li>
-                        </ul>                        
-                    </div>
-                </div>
-            </div> 
-
-            <!--Education section-->
-            <div id="edu">
-                <div id="edu_heading">
-                    <img id="edu_logo" title="My learning Journey" src="resources/Icons/education.png">
-                    <h1>Learning Journey</h1>
-                </div>
-                <div id="edu_content">
-                   <div id="journey1">
-                        <div id="journey1_title">
-                            <p id="journey1_title1">1<sup>st</sup>, Sep 2019, The Journey has begun</p>
-                            <img id="destination" title="The Journey starts here" src="resources/Images/destination.png">
-                        </div>
-                        <div id="journey1_descreption">
-                            <p id="p1_descreption">
-                                In 2019, I've become officially
-                                 <b>a University Student at 
-                                     <a href="https://www.iugaza.edu.ps/en/" target="_blank">IUG</a>.</b>
-                            </p>
-                            <p id="p2_descreption">    
-                                        <!-- Hashem Alkeshawi 120190191 -->
-
-                                The first semester was a great new Experience, with lots of difficulties,
-                                the semester gets over giving me the essential knowledge of software stuff, 
-                                courses like:
-                            </p>
-                            <ul id="1st_semester_courses">
-                                <li>Problem Solving With Java</li>
-                                <li>Introduction To Computing</li>
-                                <li>Calculus 'A'</li>
-                                <li>and more!</li>
-                            </ul>
-                            <hr id="wall">
-                            
-                        </div>
-                   </div>
-                   <div id="journey2">
-                    <div id="journey1_title">
-                        <p id="journey1_title1">2020, The pandemic hits hard</p>
-                        <img id="destination" title="COVID-19" src="resources/Images/pandemic.png">
-                    </div>
-                    <div id="journey1_descreption">
-                        <p id="p1_descreption">
-                            At the beginning of 2020, I chose to quit University.
-                        </p>
-                        <p id="p2_descreption">    
-                                    <!-- Hashem Alkeshawi 120190191 -->
-
-                            Due to some personal issues,
-                            I had to make a decision,
-                            either continue with online learning 
-                            or take the hard way and do it as a self-taught programmer
-                        </p>
-                        <div id="p3_descreption">
-                            <p id="p3_text">
-                                Leaving the university was tough, but so am I.<br>
-                                <br>I started learning <b>front-end development</b> with <a href="https://www.w3schools.com/" target="_blank" id="aW">W3Schools</a>, 
-                                it costs me three months.<br><br>
-                                <hr>
-                                Then, I turned into <b>Android App development</b>
-                                after seeing an ad for a course by Google on the <a href="https://www.udacity.com/
-                                course/android-basics-nanodegree-by-google
-                                --nd803?utm_source=gsem_brand&utm_medium=
-                                &utm_campaign=12908932988_c&utm_term
-                                =124509196031&utm_keyword=android%20basics
-                                %20udacity_e&gclid=CjwKCAiAp8iMBhAqEiwAJb94
-                                z3uAqNgRkinieKI6uW2T3BgtxwuogkLnR0
-                                YFVwMRaSOeY6CBEVQUiBoCnUYQAvD_BwE" id="aU" target="_blank">Udacity</a> platform.<br>
-                                I've taken five courses on <b>Android basics with java</b>, they covered:
-                                </p>
-                                <ul>
-                                    <li id="android_ui">Android: <a href="https://www.udacity.com/course/android-basics-user-interface--ud834" target="_blank">User Interface</a>.</li>
-                                    <li id="android_up">Android: <a href="https://www.udacity.com/course/android-basics-user-input--ud836" target="_blank">User Input</a>.</li>
-                                    <li id="android_ms">Android: <a href="https://www.udacity.com/course/android-basics-multiscreen-apps--ud839"target="_blank" >Multi-screen app</a>.</li>
-                                    <li id="android_n"> Android: <a href="https://www.udacity.com/course/android-basics-networking--ud843" target="_blank">Networking</a>.</li>
-                                    <li id="android_ds">Android: <a href="https://www.udacity.com/course/android-basics-data-storage--ud845" target="_blank">Data Storage</a>.</li>
-                                </ul>
-                                <hr>
-                                Then, <b>an intermediate Development</b> course, also from Google on <a href="https://www.udacity.com/
-                                course/android-basics-nanodegree-by-google
-                                --nd803?utm_source=gsem_brand&utm_medium=
-                                &utm_campaign=12908932988_c&utm_term
-                                =124509196031&utm_keyword=android%20basics
-                                %20udacity_e&gclid=CjwKCAiAp8iMBhAqEiwAJb94
-                                z3uAqNgRkinieKI6uW2T3BgtxwuogkLnR0
-                                YFVwMRaSOeY6CBEVQUiBoCnUYQAvD_BwE" id="aU" target="_blank">Udacity</a>
-                                <ul>
-                                    <li id="android_dev"><a href="https://www.udacity.com/course/new-android-fundamentals--ud851" target="_blank">Developing Android Apps</a>.</li>
-                                </ul>
-                                <hr>
-                                <br><b>Android Applications Development</b> cost me about nine months to a year<br>
-                                <br>Then I tried the Algorithms and problem solving on
-                                <a href="" target="_blank">Hacker Rank</a> and <a href="" target="_blank">Code Signal</a>
-                        </div>
-                        <hr id="wall"><!-- Hashem Alkeshawi 120190191 -->
-                        
-                    </div>
-
-                   </div>
-                   <div id="journey3">
-                        <div id="journey1_title">
-                            <p id="journey1_title1">11<sup>st</sup>, Sep 2021, The Journey Continues</p>
-                            <img id="destination2" title="The second step" src="resources/Images/destination2.png">
-                        </div>
-                        <div id="journey1_descreption">
-                            <p id="p1_descreption">
-                                <a href="https://www.iugaza.edu.ps/en/" target="_blank">IUG</a>,
-                                I Am Back!
-                            </p>
-                            <p id="p1_descreption">
-                                In September 2021, I've had head back to the University
-                            </p>
-                            <p id="p2_descreption">    
-                                Being a university student again is great, especially after 
-                                a year and half of hard work and learning, this semester was 
-                                really informative and I did well in it.
-
-                                <br><br>New courses with new Software skills:
-                            </p>
-
-                            <ul id="1st_semester_courses">
-                                <li>DataBase Management Systems.</li>
-                                <li>Concepts of Software Engineering.</li>
-                                <li>Data Structures and Algorithms.</li>
-                                <li>Web Programming.</li>
-                            </ul><hr> 
-                            <p id="p4_text">
-                                In the winter holiday, I started learning Kotlin for Android instead of Java.<br>
-                                <b>Kotlin Bootcamp</b> from Google on:<a href="https://www.youtube.com/watch?v=-qfEOE4vtxE&t=2870s"
-                                  id="aU" target="_blank">Udacity</a></b>
-                                <ul>
-                                    <li id="Kotlin Bootcamp"><a href="https://www.udacity.com/course/kotlin-bootcamp-for-programmers--ud9011"
-                                         target="_blank">Kotling Bootcamp</a>.</li>
-                                </ul>
-                                <hr>  
-                                <p id="p5_text">                        
-                                Then, I started learning advanced front-end.<br>
-                                 <b>Bootstrap course</b> from FreeCodeCamp.org, On:<a href="https://www.youtube.com/watch?v=-qfEOE4vtxE&t=2870s"
-                                  id="aU" target="_blank">YouTube/FreeCodeCamp.org</a></b>
-                                <ul>
-                                    <li id="Bootstrap"><a href="https://www.youtube.com/watch?v=-qfEOE4vtxE&t=2870s" target="_blank">BootStrap</a>.</li>
-                                </ul>
-                                <b>React Js course</b> from Scrimba.com, On:<a href="https://scrimba.com/dashboard?tab=overview"
-                                  id="aU" target="_blank">Scrimba</a></b>
-                                <ul>
-                                    <li id="React"><a href="https://scrimba.com/learn/learnreact" target="_blank">Reac.js course</a>.</li>
-                                </ul>
-                                </p>
-                            </p>
-
-                                <hr id="wall">
-                                </div>
-                        </div>
-
-                   </div> 
-                            
-                   </div>                  
-                </div>
-            </div> 
-            <!--Portfolio section-->
-            <div id="portfolio">
-                <div id="portfolio_heading">
-                    <img id="portfolio_logo" src="resources/Icons/portfolio.png">
-                    <h1>Portfolio</h1>
-                </div>
-                <!-- Hashem Alkeshawi 120190191 -->
+            <div class="skill-card">
+              <h3>SQL <span class="skill-level">(advanced)</span></h3>
+              <p>Designing production schemas and optimizing queries for app analytics and sync features.</p>
             </div>
-            <div id="portfolio_content">
-                <div id="android_p">
-                    <div id="title_a">
-                        <img src="resources/Images/app.png" title="Applications" alt="Applications">
-                        <h2>Applications</h2> 
-                        <hr>
-                    </div>     
-                    <div id="app1">
-                        <h2>Try now!</h2>
-                        <a target="_blank" href="https://drive.google.com/uc?export=download&id=1Dl4MQUhJN4wX9C3OUnHm3jzormoxyHri" download>
-                            <img  id="icon" title="Download The app" src="resources/Portfolio_Media/Icons/pomodoro_icon.png">
-                            <figcaption>Download for Android</figcaption>
-                        </a>
-                        <div id="gallery">
-                            <img id="capture" alt="screenshot" src="resources/Portfolio_Media/Imges/pomodoro/Capture_1024x500.png">
-                            <div>
-                                <img alt="screenshot" src="resources/Portfolio_Media/Imges/pomodoro/Capture.PNG">
-                                <img alt="screenshot" src="resources/Portfolio_Media/Imges/pomodoro/Capture1.PNG">
-                                <img alt="screenshot" src="resources/Portfolio_Media/Imges/pomodoro/Capture2.PNG">
-                                <img alt="screenshot" src="resources/Portfolio_Media/Imges/pomodoro/Capture3.PNG">
-                            </div>
-                        </div>
-                    </div>
-                    <div id="app2">
-                        <h2>Try now!</h2>
-                        <a target="_blank" href="https://drive.google.com/uc?export=download&id=198tDMTz_wJjBRchC7b1-WS4hrVBwOzk2" download>
-                        <img  id="icon" title="Download the app" src="resources/Portfolio_Media/Icons/tomorrow_icon.png">
-                        <figcaption>Download for Android</figcaption>
-                        </a>
-                        <div id="gallery">
-                            <img id="capture" alt="screenshot" src="resources/Portfolio_Media/Imges/tomorrow/Capture_1024x500.PNG">
-                            <div>
-                                <img alt="screenshot" src="resources/Portfolio_Media/Imges/tomorrow/R1.PNG">
-                                <img alt="screenshot" src="resources/Portfolio_Media/Imges/tomorrow/R2.PNG">
-                                <img alt="screenshot" src="resources/Portfolio_Media/Imges/tomorrow/R4.PNG">
-                                <img alt="screenshot" src="resources/Portfolio_Media/Imges/tomorrow/R5.PNG">
-                            </div>
-                        </div>
-                    </div>               
-                </div>
-                <div id="frontend_p">
-                    <div id="title_f">
-                        <img src="resources/Images/frontend.png" title="Front_End" alt="FrontEnd">
-                        <h2>FrontEnd</h2>  
-                        <hr>                      
-                    </div>
-                </div>
+
+            <div class="skill-card">
+              <h3>Product & UX Thinking <span class="skill-level">(intermediate)</span></h3>
+              <p>Guiding product decisions with analytics, user feedback, and learning science for educational flows.</p>
             </div>
+
+            <div class="skill-card">
+              <h3>DevOps <span class="skill-level">(beginner)</span></h3>
+              <p>Introduction to deployment pipelines, version control, and basic server management.</p>
+            </div>
+          </div>
         </div>
-        <!--The footer contains the creator and contacts info-->
-        <div id="contact_section">
-            <hr id="wall">
-            <div id="contact">
-                <h1>Contact Me</h1>
-                <fieldset>  
-                    <legend>Send Whatsapp Massage</legend>  
-                    <form>
-                        <label>Enter your massage</label><textarea  name="massage" id="massage" ></textarea>
-                    </form>
-                    <button onclick="Send()">Send via Whatsapp</button>
+      </div>
 
-                </fieldset>
-                <div id="links">
-                <a target="_blank" href="https://wa.me/970592103756"><img alt="Whatsapp" title="Whatsapp" src="resources/Icons/whatsapp.png"></a>
-                <a target="_blank" href="https://www.linkedin.com/in/hashemalkeshawi"><img title="LinkedIn" alt="linkedin" src="resources/Icons/linkedin.png"></a>
-                <a target="_blank" href="https://github.com/HashemAlkeshawi"><img alt="GitHub" title="GitHub" src="resources/Icons/github.png"></a>
-                <a target="_blank" href="mailto://hashemalkeshawi@gmail.com"><img alt="Gmail" title="Gmail" src="resources/Icons/gmail.png"></a>
-                
-                </div>
-                <div id="resume">
-                    <a target="_blank" href="https://drive.google.com/uc?export=download&id=1Lr6DToywU8uZALtOtodG5BNufeHfeEN6"><img src="resources/Icons/cv.png" title="Download My Resume" alt="download_resume"></a>
-                </div>
+      <!-- About details -->
+      <!-- <div class="about-grid">
+        <div class="about-left">
+          <ul class="about-list">
+            <li><strong><span class="en">Role</span><span class="ar" lang="ar" dir="rtl" style="display:none">الدور</span>:</strong> <span class="en">Founder & Lead Engineer (Backend & Mobile)</span><span class="ar" lang="ar" dir="rtl" style="display:none">مؤسس والمهندس القيادي (الخلفية والتطبيقات المحمولة)</span></li>
+            <li><strong><span class="en">Location</span><span class="ar" lang="ar" dir="rtl" style="display:none">الموقع</span>:</strong> <span class="en">Gaza, Palestine</span><span class="ar" lang="ar" dir="rtl" style="display:none">غزة، فلسطين</span></li>
+            <li><strong><span class="en">Education</span><span class="ar" lang="ar" dir="rtl" style="display:none">التعليم</span>:</strong> <span class="en">B.Sc. Computer Science — Islamic University of Gaza (2019–2024)</span><span class="ar" lang="ar" dir="rtl" style="display:none">بكالوريوس علوم الحاسوب — الجامعة الإسلامية بغزة (2019–2024)</span></li>
+            <li><strong><span class="en">Top skills</span><span class="ar" lang="ar" dir="rtl" style="display:none">المهارات</span>:</strong> <span class="en">PHP/Laravel, Dart/Flutter (Android &amp; iOS), RESTful APIs, SQL, DevOps</span><span class="ar" lang="ar" dir="rtl" style="display:none">SQL، PHP / Laravel، Dart / Flutter (Android &amp; iOS)، واجهات REST، DevOps</span></li>
+          </ul>
 
-                <!-- Hashem Alkeshawi 120190191 -->
-            </div>
-            <hr>
-            <div id="footer"> Hashem Alkeshawi &copy; 2021<br><br></div>
+       
         </div>
-    </body>
+
+        <div class="about-right">
+          <h4><span class="en">Short highlights</span><span class="ar" lang="ar" dir="rtl" style="display:none">أهم النقاط</span></h4>
+          <ul class="highlights">
+            <li><span class="en">Built Laravel REST APIs and SQL schemas for production.</span><span class="ar" lang="ar" dir="rtl" style="display:none">بنى واجهات API بـ Laravel ومخططات SQL للإنتاج.</span></li>
+            <li><span class="en">Developed mobile apps in Flutter (Android &amp; iOS) and Android.</span><span class="ar" lang="ar" dir="rtl" style="display:none">طوّر تطبيقات محمولة بـ Flutter (Android &amp; iOS) وأندرويد.</span></li>
+            <li><span class="en">Focused on learning products and data-driven features.</span><span class="ar" lang="ar" dir="rtl" style="display:none">يركّز على منتجات تعليمية وميزات مدفوعة بالبيانات.</span></li>
+          </ul>
+        </div>
+      </div> -->
+
+    
+    </section>
+
+    <!-- PRODUCT: flagship app summary & metrics -->
+    <section id="product" class="container" aria-labelledby="product-heading">
+      <div class="product-header">
+        <div class="badge">Closed beta</div>
+        <div class="product-title">
+          <a href="https://baseera-app.com" target="_blank" style="text-decoration: none;"><img src="resources/Icons/baseera_icon_launcher.png" alt="Baseera icon" class="title-icon"></a>
+          <div>
+            <a href="https://baseera-app.com" target="_blank" style="text-decoration: none;"><h2 id="product-heading">
+              <span class="en">Baseera — Modern Islamic Learning App</span>
+              <span class="ar" lang="ar" dir="rtl" style="display:none">بصيرة — في ما لا يسع المسلم جهله</span>
+            </h2></a>
+            <p class="built-by"><span class="en">Founded by Hashem Alkeshawi — Founder & Lead Engineer</span><span class="ar" lang="ar" dir="rtl" style="display:none">مؤسس بواسطة هاشم القيشاوي — المؤسس والمدير التقني</span></p>
+          </div>
+        </div>
+        <p class="product-lead">
+          <span class="en">Baseera is a modern, interactive Islamic-learning app that offers structured courses across essential fields like Aqeedah, Fiqh, Hadith, Quranic sciences, Arabic language, and Ethics, tailored for beginners and advanced learners. Using a gamified system, users earn knowledge moons (XP) to track progress, and use "writing quills" — the app’s currency — which are spent when answering incorrectly and replenished by waiting or watching ads.</span>
+          <span class="ar" lang="ar" dir="rtl" style="display:none">بصيرة هو تطبيق تعليمي إسلامي عصري يقدم العلوم الشرعية مثل العقيدة، الفقه، الحديث، تفسير القرآن، اللغة العربية، والأخلاق بأسلوب تفاعلي ومنهجي يناسب المبتدئين والمتقدمين. يستخدم نظام تحفيزي ذكي: يتيح جمع أهلة المعرفة (XP) كمقياس للتقدم، و"ريشات الكتابة" كعملة داخل التطبيق تستهلك عند الإجابات الخاطئة وتعاد شحنها بالانتظار أو مشاهدة إعلانات.</span>
+        </p>
+      </div>
+
+  
+
+        <div class="product-details">
+          <h3><span class="en">Key features</span><span class="ar" lang="ar" dir="rtl" style="display:none">الميزات الرئيسية</span></h3>
+          <ul class="features-list">
+            <li><strong><span class="en">Organized and Gradual Learning</span><span class="ar" lang="ar" dir="rtl" style="display:none">تعلم منظم ومتدرج</span></strong> — <span class="en">Integrated educational methodology that takes you from basics to advanced levels smoothly and gradually.</span><span class="ar" lang="ar" dir="rtl" style="display:none">منهجية تعليمية متكاملة تنقلك من الأساسيات إلى المراحل المتقدمة بشكل سلس ومتدرج.</span></li>
+            <li><strong><span class="en">Reliable Scientific Content</span><span class="ar" lang="ar" dir="rtl" style="display:none">محتوى علمي موثوق</span></strong> — <span class="en">Content endorsed from trusted sources under the supervision of specialists in Islamic sciences.</span><span class="ar" lang="ar" dir="rtl" style="display:none">محتوى معتمد من مصادر موثوقة بإشراف نخبة من المتخصصين في العلوم الشرعية.</span></li>
+            <li><strong><span class="en">Interactive and Fun</span><span class="ar" lang="ar" dir="rtl" style="display:none">تفاعلي وممتع</span></strong> — <span class="en">Interactive educational system that makes learning more enjoyable and effective through questions and detailed explanations.</span><span class="ar" lang="ar" dir="rtl" style="display:none">نظام تعليمي تفاعلي يجعل عملية التعلم أكثر متعة وفاعلية من خلال الأسئلة والشروح المفصلة.</span></li>
+            <li><strong><span class="en">Learn Anytime, Anywhere</span><span class="ar" lang="ar" dir="rtl" style="display:none">تعلم في أي وقت ومكان</span></strong> — <span class="en">Benefit from the app at any time and place, allowing flexibility in organizing your educational schedule.</span><span class="ar" lang="ar" dir="rtl" style="display:none">يمكنك الاستفادة من التطبيق في أي وقت ومكان، مما يتيح لك المرونة في تنظيم جدولك التعليمي.</span></li>
+            <li><strong><span class="en">Track Personal Progress</span><span class="ar" lang="ar" dir="rtl" style="display:none">متابعة تقدمك الشخصي</span></strong> — <span class="en">Provides a system to track your progress in each educational path, helping identify strengths and weaknesses.</span><span class="ar" lang="ar" dir="rtl" style="display:none">يوفر التطبيق نظاماً لمتابعة تقدمك في كل مسار تعليمي، مما يساعدك على تحديد نقاط القوة والضعف.</span></li>
+            <li><strong><span class="en">Suitable for All Levels</span><span class="ar" lang="ar" dir="rtl" style="display:none">مناسب لجميع المستويات</span></strong> — <span class="en">Designed to suit all levels, from beginners starting their journey in seeking knowledge to advanced learners.</span><span class="ar" lang="ar" dir="rtl" style="display:none">التطبيق مصمم ليناسب جميع المستويات، من المبتدئين الذين يبدؤون رحلتهم في طلب العلم إلى المتقدمين.</span></li>
+          </ul>
+
+          <h4><span class="en">Tech stack</span><span class="ar" lang="ar" dir="rtl" style="display:none">التقنيات</span></h4>
+          <p class="tech-list"><span class="en">SQL · PHP / Laravel · Dart &amp; Flutter (Android &amp; iOS)</span><span class="ar" lang="ar" dir="rtl" style="display:none">SQL · PHP / Laravel · Dart &amp; Flutter (Android &amp; iOS)</span></p>
+
+          <div class="product-ctas">
+            <a class="btn primary" href="https://baseera-app.com" target="_blank" rel="noopener noreferrer" id="join-beta"><span class="en">Visit Baseera App</span><span class="ar" lang="ar" dir="rtl" style="display:none">زور تطبيق بصيرة</span></a>
+            <a class="btn outline" href="https://wa.me/970592103756" target="_blank" rel="noopener noreferrer"><span class="en">Message on WhatsApp</span><span class="ar" lang="ar" dir="rtl" style="display:none">تواصل عبر واتساب</span></a>
+          </div>
+
+          <p class="product-note">
+            <span class="en">Note: Baseera is in closed beta. Content is sourced from reliable Islamic scholarship and is free to use, with potential for a paid version in the future.</span>
+            <span class="ar" lang="ar" dir="rtl" style="display:none">ملاحظة: بصيرة في حالة تجريب مغلقة. المحتوى مستمد من مصادر شرعية موثوقة ومجاني للاستخدام، مع إمكانية نسخة مدفوعة مستقبلًا.</span>
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- CONTACT: clear asks (beta users, cofounders, investors) -->
+    <section id="contact" class="container" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">
+        <span class="en">Contact</span>
+        <span class="ar" lang="ar" dir="rtl" style="display:none">تواصل</span>
+      </h2>
+
+      <p class="contact-lead">
+        <span class="en">Ready to start a conversation? Whether it's about opportunities, partnerships, or Baseera, I'm here. Choose how you'd like to connect!</span>
+        <span class="ar" lang="ar" dir="rtl" style="display:none">جاهز للبدء في محادثة؟ سواء كان عن فرص أو شراكات أو بصيرة، أنا هنا. اختر كيف تريد التواصل!</span>
+      </p>
+
+      <div class="contact-cards">
+        <div class="contact-card">
+          <div class="card-icon">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          </div>
+          <h3><span class="en">Email</span><span class="ar" lang="ar" dir="rtl" style="display:none">البريد الإلكتروني</span></h3>
+          <p><span class="en">Drop me a line anytime</span><span class="ar" lang="ar" dir="rtl" style="display:none">أرسل لي رسالة في أي وقت</span></p>
+          <a href="mailto:hashemalkeshawi@gmail.com" class="card-link"><span class="en">Send Email</span><span class="ar" lang="ar" dir="rtl" style="display:none">إرسال بريد</span></a>
+        </div>
+
+        <div class="contact-card">
+          <div class="card-icon">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/></svg>
+          </div>
+          <h3><span class="en">WhatsApp</span><span class="ar" lang="ar" dir="rtl" style="display:none">واتساب</span></h3>
+          <p><span class="en">Quick chat or call</span><span class="ar" lang="ar" dir="rtl" style="display:none">دردشة سريعة أو مكالمة</span></p>
+          <a href="https://wa.me/970592103756" target="_blank" rel="noopener noreferrer" class="card-link"><span class="en">Message Me</span><span class="ar" lang="ar" dir="rtl" style="display:none">راسلني</span></a>
+        </div>
+
+        <div class="contact-card">
+          <div class="card-icon">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </div>
+          <h3><span class="en">LinkedIn</span><span class="ar" lang="ar" dir="rtl" style="display:none">لينكد إن</span></h3>
+          <p><span class="en">Professional networking</span><span class="ar" lang="ar" dir="rtl" style="display:none">شبكة مهنية</span></p>
+          <a href="https://www.linkedin.com/in/hashemalkeshawi/" target="_blank" rel="noopener noreferrer" class="card-link"><span class="en">Connect</span><span class="ar" lang="ar" dir="rtl" style="display:none">تواصل</span></a>
+        </div>
+
+        <div class="contact-card">
+          <div class="card-icon">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+          </div>
+          <h3><span class="en">GitHub</span><span class="ar" lang="ar" dir="rtl" style="display:none">جيت هاب</span></h3>
+          <p><span class="en">Check my code</span><span class="ar" lang="ar" dir="rtl" style="display:none">تحقق من كودي</span></p>
+          <a href="https://github.com/HashemAlkeshawi" target="_blank" rel="noopener noreferrer" class="card-link"><span class="en">View Profile</span><span class="ar" lang="ar" dir="rtl" style="display:none">عرض الملف</span></a>
+        </div>
+
+        <div class="contact-card">
+          <div class="card-icon">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M23.91 3.79L20.3 20.84c-.25 1.21-.63 1.6-1.02 1.65-.76.08-1.06-.54-1.62-1.88L14.58 15c-.53-.35-1.3-.18-1.3-.18l-8.7-5.42c-.96-.59-.96-1.47 0-1.76L21.87 2.17c.97-.43 1.9-.24 2.19.62z"/><path d="M9.5 13.5l-1.5 4.5c-.17.5-.27.5-.5.5-.33 0-.5-.17-.5-.5L7 12l4-2-4-2-1.5-4.5c-.17-.5-.27-.5-.5-.5-.33 0-.5.17-.5.5L5 9l-2 1 2 1 1.5 4.5c.17.5.27.5.5.5.33 0 .5-.17.5-.5z"/></svg>
+          </div>
+          <h3><span class="en">Telegram</span><span class="ar" lang="ar" dir="rtl" style="display:none">تليجرام</span></h3>
+          <p><span class="en">Instant messaging</span><span class="ar" lang="ar" dir="rtl" style="display:none">رسائل فورية</span></p>
+          <a href="https://t.me/hashemalkeshawi" target="_blank" rel="noopener noreferrer" class="card-link"><span class="en">Chat Now</span><span class="ar" lang="ar" dir="rtl" style="display:none">دردش الآن</span></a>
+        </div>
+
+        <div class="contact-card contact-form-card">
+          <h3><span class="en">Send a Message</span><span class="ar" lang="ar" dir="rtl" style="display:none">أرسل رسالة</span></h3>
+          <form class="contact-form">
+            <label for="name"><span class="en">Your name</span><span class="ar" lang="ar" dir="rtl" style="display:none">الاسم</span></label>
+            <input id="name" type="text" placeholder="" />
+
+            <label for="email"><span class="en">Your email</span><span class="ar" lang="ar" dir="rtl" style="display:none">البريد الإلكتروني</span></label>
+            <input id="email" type="email" placeholder="" />
+
+            <label for="message"><span class="en">Message</span><span class="ar" lang="ar" dir="rtl" style="display:none">رسالة</span></label>
+            <textarea id="message" placeholder="Hi Hashem, I'd like to..." ></textarea>
+
+            <div class="contact-actions">
+              <button class="btn primary" onclick="Send()"><span class="en">Send via WhatsApp</span><span class="ar" lang="ar" dir="rtl" style="display:none">إرسال عبر واتساب</span></button>
+              <a class="btn outline" href="mailto:hashemalkeshawi@gmail.com?subject=Contact%20from%20website" id="mailto-contact"><span class="en">Send email</span><span class="ar" lang="ar" dir="rtl" style="display:none">أرسل بريدًا</span></a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">Hashem Alkeshawi &copy; <span id="year">2025</span></div>
+  </footer>
+
+  <button id="back-to-top" aria-label="Back to top" onclick="hideBack()">↑</button>
+</body>
 </html>
