@@ -132,7 +132,7 @@ html[dir="rtl"] .hero-copy::before{right:auto;left:-30px;transform:rotate(-12deg
 
 /* Product section styles */
 .product-header{margin-bottom:1.25rem}
-.product-header .badge{display:inline-block;background:#ffd2a8;color:#663c00;padding:.25rem .5rem;border-radius:999px;font-size:.85rem;margin-bottom:.5rem}
+.product-header .badge{display:inline-block;background:#c8f7c5;color:#1b5e20;padding:.25rem .5rem;border-radius:999px;font-size:.85rem;margin-bottom:.5rem}
 .product-header h2{font-size:1.75rem;margin:.25rem 0}
 .product-lead{color:#333;margin-bottom:1rem}
 
